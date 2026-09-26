@@ -37,8 +37,8 @@ Capturas do painel (ambiente de teste / admin local).
 | ![Contas a receber](docs/previews/efatha-contas-receber.png) | ![Projetos](docs/previews/efatha-projetos.png) | ![Servidores](docs/previews/efatha-servidores.png) |
 | **Usuários** | **Perfis (ACL)** | **Política comercial** |
 | ![Usuários](docs/previews/efatha-config-acesso.png) | ![Perfis](docs/previews/efatha-config-perfis.png) | ![Comercial](docs/previews/efatha-config-comercial.png) |
-| **Aparência (login)** | **Sessões** | **Auditoria** |
-| ![Aparência](docs/previews/efatha-config-aparencia.png) | ![Sessões](docs/previews/efatha-sessoes.png) | ![Auditoria](docs/previews/efatha-auditoria.png) |
+| **Aparência (login)** | **Sessões** | |
+| ![Aparência](docs/previews/efatha-config-aparencia.png) | ![Sessões](docs/previews/efatha-sessoes.png) | |
 
 Projetos adicionais seguirão o template em [docs/ADDING_A_PROJECT.md](docs/ADDING_A_PROJECT.md).
 
