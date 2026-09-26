@@ -8,19 +8,21 @@ Este repositório é uma **capa de portfólio**: documenta o que foi entregue, a
 
 | Projeto | Stack | Status | Última alteração | Site |
 |---------|-------|--------|------------------|------|
-| Efathá Hosting Manager | Spring Boot, React/TypeScript, PostgreSQL, Docker, Traefik | Baseline / Em evolução | 22/09/2026 | — |
+| Efathá Hosting Manager | Quarkus 3, React/TypeScript, Keycloak, PostgreSQL, Docker, Traefik | Em evolução | 26/09/2026 | [gestao.efathasolutions.com.br](https://gestao.efathasolutions.com.br) |
 
 ## Cases
 
 ### Efathá Hosting Manager
 
-Painel SaaS para centralizar clientes, projetos hospedados, status público (ativo / manutenção / bloqueado / desativado), cobranças e notificações — sem substituir cPanel/Plesk, com bloqueio preferencial via roteamento no Traefik.
+![Preview Efathá Hosting Manager](docs/previews/efatha-hosting-manager.png)
 
-- **Stack:** Spring Boot (monólito modular), React + TypeScript, PostgreSQL, Docker, Traefik; integrações (Efí, Resend) atrás de ports
-- **Entrega:** baseline documental completa (BMAP, PRD, SDD, TDD, BDD, modelo de dados, ADRs); implementação de código ainda em preparação
-- **Destaques técnicos:** um estado operacional por projeto; página pública neutra em `BLOQUEADO`; agente de VPS com privilégios mínimos (evolução planejada)
+SaaS para gestão operacional e financeira de sites, landing pages e projetos hospedados — painel interno Efathá e portal do cliente (faturas, Pix, histórico), com bloqueio preferencial via roteamento no Traefik (sem substituir cPanel/Plesk).
+
+- **Stack:** Java / Quarkus 3 (monólito modular), React + TypeScript, PostgreSQL, Keycloak (OIDC) + BFF, Docker + Traefik; integrações de cobrança/notificação atrás de ports
+- **Entrega:** baseline documental (BMAP, PRD, SDD, TDD, BDD, ADRs) + implementação em andamento (RBAC com catálogo dinâmico de papéis, chrome do dashboard, gestão de usuários/perfis); painel em `gestao.efathasolutions.com.br`
+- **Destaques técnicos:** um estado operacional por projeto; página pública neutra em `BLOQUEADO`; papéis dinâmicos no banco (em vez de enum fixo); agente de VPS com privilégios mínimos (evolução planejada)
 - **Repositório:** `lMazer/efatha-hosting-manager` *(privado)*
-- **Site:** — *(ainda sem URL pública)*
+- **Site:** [https://gestao.efathasolutions.com.br](https://gestao.efathasolutions.com.br)
 
 Projetos adicionais seguirão o template em [docs/ADDING_A_PROJECT.md](docs/ADDING_A_PROJECT.md).
 
