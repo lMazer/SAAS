@@ -25,19 +25,9 @@ SaaS para gestão operacional e financeira de sites, landing pages e projetos ho
 - **Repositório:** `lMazer/efatha-hosting-manager` *(privado)*
 - **Site:** [https://gestao.efathasolutions.com.br](https://gestao.efathasolutions.com.br)
 
-### Efathá Avdá
+#### Galeria do Hosting Manager
 
-Projeto SaaS multi-tenant para gestão de voluntários, ministérios, eventos, escalas, check-in, comunicação e operação de igrejas.
-
-- **Stack aprovada:** Java 25 / Quarkus (monólito modular), React 19.2, TypeScript 6, Vite 8, Expo SDK 57 / React Native 0.86, Keycloak e PostgreSQL 18.
-- **Entrega:** especificação e governança do produto; arquitetura aprovada pela ADR-013 em 06/10/2026. O projeto está em planejamento e sua documentação permanece em revisão final; não representa produto implantado.
-- **Destaques técnicos:** multi-tenancy com `tenant_id` e RLS; PostgreSQL compartilhado por ambiente; Traefik existente como edge.
-- **Repositório:** `lMazer/efatha-avda` *(privado; repositório de especificação e governança)*
-- **Site:** ainda não disponível.
-
-#### Galeria
-
-Capturas do painel (ambiente de teste / admin local).
+Capturas do painel Efathá Hosting Manager (ambiente de teste / admin local).
 
 | Login | Dashboard | Clientes |
 |:---:|:---:|:---:|
@@ -50,6 +40,16 @@ Capturas do painel (ambiente de teste / admin local).
 | ![Usuários](docs/previews/efatha-config-acesso.png) | ![Perfis](docs/previews/efatha-config-perfis.png) | ![Comercial](docs/previews/efatha-config-comercial.png) |
 | **Aparência (login)** | **Sessões** | |
 | ![Aparência](docs/previews/efatha-config-aparencia.png) | ![Sessões](docs/previews/efatha-sessoes.png) | |
+
+### Efathá Avdá
+
+Projeto SaaS multi-tenant para gestão de voluntários, ministérios, eventos, escalas, check-in, comunicação e operação de igrejas.
+
+- **Stack aprovada:** Java 25 / Quarkus (monólito modular), React 19.2, TypeScript 6, Vite 8, Expo SDK 57 / React Native 0.86, Keycloak e PostgreSQL 18.
+- **Entrega:** especificação e governança do produto; arquitetura aprovada pela ADR-013 em 06/10/2026. O projeto está em planejamento e sua documentação permanece em revisão final; não representa produto implantado.
+- **Destaques técnicos:** multi-tenancy com `tenant_id` e RLS; PostgreSQL compartilhado por ambiente; Traefik existente como edge.
+- **Repositório:** `lMazer/efatha-avda` *(privado; repositório de especificação e governança)*
+- **Site:** ainda não disponível.
 
 Novos projetos seguirão o template em [docs/ADDING_A_PROJECT.md](docs/ADDING_A_PROJECT.md), que também cobre cases em planejamento sem site ou interface pública.
 
